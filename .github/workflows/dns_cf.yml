@@ -2,7 +2,7 @@ name: 'dns_cf_push'
 
 on:
   schedule:
-    - cron: '*/10 * * * *' # every 6h
+    - cron: '0 */4 * * *' # every 4h
   workflow_dispatch:
 
 jobs:
