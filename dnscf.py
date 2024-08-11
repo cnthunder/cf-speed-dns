@@ -12,7 +12,7 @@ CF_DNS_NAME     =   os.environ["CF_DNS_NAME"]
 # pushplus_token
 PUSHPLUS_TOKEN  =   os.environ["PUSHPLUS_TOKEN"]
 
-
+e = str
 
 headers = {
     'Authorization': f'Bearer {CF_API_TOKEN}',
